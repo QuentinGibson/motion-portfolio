@@ -1,0 +1,24 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.navigation ul li a:visited {
+  color: var(--font-color);
+}
+
+.navigation li:not(:last-child) {
+  margin-right: 5rem;
+}
+
