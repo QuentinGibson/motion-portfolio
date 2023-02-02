@@ -1,7 +1,6 @@
 .full-container {
   display: flex;
   justify-content: center;
-  margin: 0 80px;
   flex-direction: column;
   z-index: 100;
   position: relative;
