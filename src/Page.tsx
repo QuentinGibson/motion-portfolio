@@ -1,5 +1,6 @@
 import MainMenu from "./MainMenu"
 import Footer from "./Footer"
+import "./page.css"
 const Page = ({children}: any) => {
   return (
     <main className="app">
