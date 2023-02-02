@@ -31,13 +31,6 @@
 	transition: opacity 0.1s;
 }
 
-.marquee-container::before {
-  content: " ";
-  position: absolute;
-  z-index: -1;
-  border: solid green 5px;
-}
-
 .marquee span {
 	text-align: center;
 	white-space: nowrap;
