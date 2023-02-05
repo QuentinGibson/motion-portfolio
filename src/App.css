@@ -23,3 +23,8 @@ main::before {
   90% { transform:translate(-10%, 10%); }
 }
 
+
+.font-banner {
+  font-size: 100px;
+  font-weight: bold;
+}

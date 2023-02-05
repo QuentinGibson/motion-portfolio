@@ -6,9 +6,12 @@ function App() {
   return (
     <main className="App">
       <div>
-        <h2>Welcome to my side of the web</h2>
+        <div style={{ display: "flex" }}>
+          <h2>Welcome to my side of the web</h2>
+        </div>
         <h1>QUENTIN GIBSON</h1>
-        <Marquee span={messageElement}/>
+        <Marquee background={{ transform: "rotate(-1deg)", marginBottom: 30 }} span={messageElement} />
+        <Marquee background={{ transform: "rotate(1deg)" }} span={messageElement} />
       </div>
     </main>
 

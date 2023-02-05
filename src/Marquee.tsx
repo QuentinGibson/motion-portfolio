@@ -8,6 +8,10 @@ const Marquee = ({span, background}: any) => {
           {span}
           {span}
           {span}
+          {span}
+          {span}
+          {span}
+          {span}
         </div>
       </div>
     </div>
