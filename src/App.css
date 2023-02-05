@@ -1,14 +1,14 @@
-main::before {
-	animation: grain 8s steps(10) infinite;
-	background-image: url(./assets/noise.png);
-	content: '';
-	height: 300%;
-	left: -50%;
-	opacity: 0.6;
-	position: fixed;
-	top: -100%;
-	width: 300%;
-}
+/* main::before { */
+/* 	animation: grain 8s steps(10) infinite; */
+/* 	background-image: url(./assets/noise.png); */
+/* 	content: ''; */
+/* 	height: 300%; */
+/* 	left: -50%; */
+/* 	opacity: 0.6; */
+/* 	position: fixed; */
+/* 	top: -100%; */
+/* 	width: 300%; */
+/* } */
 
 @keyframes grain {
   0%, 100% { transform:translate(0, 0); }

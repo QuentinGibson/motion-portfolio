@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
 
-  <footer>Created by Quentin Gibson</footer>
+    <footer style={{ display: 'flex', justifyContent: "center", alignItems: "center" }}>Created by Quentin Gibson</footer>
   )
 }
 

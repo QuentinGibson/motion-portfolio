@@ -1,19 +1,28 @@
 .navigation {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 5rem;
+  display: grid;
+  grid-template-columns: 40% 1fr 40%;
 }
 
-.navigation ul {
+ul {
   display: flex;
   list-style-type: none;
-  z-index: 100;
-  position: relative;
+}
+
+.navigation .first {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation .second {
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0;
 }
 
 .navigation a {
   color: var(--font-color);
   text-decoration: none;
+  font-size: 16px;
 }
 
 .navigation ul li a:visited {
@@ -24,3 +33,13 @@
   margin-right: 5rem;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: 900;
+}
