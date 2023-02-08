@@ -10,7 +10,9 @@ const Page = ({ children }: props): ReactElement => {
     <main className="app">
       <div className="full-container">
         <MainMenu />
-        {children}
+        <div style={{ gridRowStart: 2 }}>
+          {children}
+        </div>
         <Footer />
       </div>
     </main>

@@ -6,21 +6,22 @@ function App() {
   return (
     <main className="App">
 
+      {/* IDEA Section Start */}
+      {/* IDEA Section End */}
+
       {/* droptop Section Start */}
-      <div>
-        <span></span>
-      </div>
+      {/* <div style={{ background: "white" }}> */}
+      {/*   <div style={{ display: "flex", margin: "20px 0" }}> */}
+      {/*     <span style={{ textTransform: "uppercase", fontSize: "11em", fontFamily: "Anton", lineHeight: "90%", letterSpacing: 0.2, color: "black" }}> */}
+      {/*       WHAT'S A ROCKSTAR TO A DOUGHBOY */}
+      {/*     </span> */}
+      {/*   </div> */}
+      {/*   <span></span> */}
+      {/* </div> */}
       {/* droptop Section Start */}
+
 
       <div style={{ margin: "0 50px " }}>
-        {/* IDEA Section Start */}
-        <div style={{ display: "flex", margin: "20px 0" }}>
-          <span style={{ textTransform: "uppercase", fontSize: "11em", fontFamily: "Anton", lineHeight: "90%", letterSpacing: 0.2 }}>
-            WHAT'S A ROCKSTAR TO A DOUGHBOY
-          </span>
-        </div>
-        {/* IDEA Section End */}
-
         {/* Quote Section Start */}
         <div style={{ display: "grid", gridTemplate: "80%  20% / 70%  30%", margin: "100px 0" }}>
           <div style={{ display: "flex", justifyContent: 'center', alignItems: "center" }}>

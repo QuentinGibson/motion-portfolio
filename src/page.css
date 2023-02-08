@@ -1,4 +1,9 @@
 .full-container {
   display: grid;
-  grid-template: 100px 1fr 100px / 1fr;
+  grid-template: 80px 1fr 70px / 1fr;
+}
+
+
+footer {
+  grid-row-start: 3;
 }

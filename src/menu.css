@@ -11,12 +11,13 @@ ul {
 .navigation .first {
   justify-content: flex-end;
   align-items: center;
+  padding-right: 10px;
 }
 
 .navigation .second {
   justify-content: flex-start;
   align-items: center;
-  padding-left: 0;
+  padding-left: 10px;
 }
 
 .navigation a {

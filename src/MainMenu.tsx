@@ -7,6 +7,7 @@ const MainMenu = () => {
         <ul className='first'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
+          <li><Link to="/new">New</Link></li>
         </ul>
         <div className="logo-container">
           <span className='logo'>QUENTDEV.</span>
@@ -14,6 +15,9 @@ const MainMenu = () => {
         <ul className='second'>
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/featured">Featured</Link></li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </nav>
     </>

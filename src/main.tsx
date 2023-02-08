@@ -1,20 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import About from './About'
 import Page from './Page'
 import Error from './Error'
+import HomePage from './pages/HomePage/HomePage'
+import AboutPage from './pages/AboutPage/AboutPage'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import './index.css'
 import 'normalize.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([{
   path: '/',
-  element: <Page><App /></Page>,
+  element: <Page><HomePage /></Page>,
   errorElement: <Error />
 }, {
   path: '/about',
-  element: <Page><About /></Page>
+  element: <Page><AboutPage /></Page>
 }])
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
