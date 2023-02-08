@@ -5,6 +5,7 @@ body {
   margin: 0;
   background-color: var(--site-backgorund-color);
   color: var(--font-color);
+  overflow-x: hidden;
   font-size: 16px;
   font-family: 'Inter', sans-serif; 
 }
