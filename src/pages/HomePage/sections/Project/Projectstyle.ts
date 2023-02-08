@@ -6,7 +6,6 @@ const ProjectStyle: ReactStyles = {
   section: {
     margin: "50px 50px",
     position: "relative",
-    overflow: 'hidden'
   },
   thinLine: {
     borderTop: "1px solid #ffffff",
@@ -21,7 +20,9 @@ const ProjectStyle: ReactStyles = {
     gridTemplateColumns: '40% 1fr',
     gridTemplateRows: 800,
     gridColumnGap: '10%',
-    margin: '80px 80px'
+    marginTop: 80,
+    marginBottom: 80,
+    marginRight: '160px'
   },
   project: {
     display: 'flex',
@@ -45,7 +46,10 @@ const ProjectStyle: ReactStyles = {
   },
   titleContainer: {
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+  },
+  projectDetailsContainer: {
+    margin: '20px 0'
   },
   title: {
     textTransform: 'uppercase',
