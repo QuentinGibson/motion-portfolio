@@ -10,10 +10,11 @@
   font-size: 8em;
   margin: 80px 0;
   text-transform: uppercase;
-  
+  letter-spacing: 3px;
 }
 
 .experience-accent {
+  font-size: 7.3rem;
   color: #577DE0;
 }
 

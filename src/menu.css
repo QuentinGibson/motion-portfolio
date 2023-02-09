@@ -1,6 +1,7 @@
-.navigation {
-  display: grid;
-  grid-template-columns: 40% 1fr 40%;
+.normal-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px;
 }
 
 ul {
@@ -8,29 +9,35 @@ ul {
   list-style-type: none;
 }
 
-.navigation .first {
+.first, .second {
+  font-size: 1em;
+  font-family: "Manrope";
+}
+
+
+.normal-navigation .first {
   justify-content: flex-end;
   align-items: center;
   padding-right: 10px;
 }
 
-.navigation .second {
+.normal-navigation .second {
   justify-content: flex-start;
   align-items: center;
   padding-left: 10px;
 }
 
-.navigation a {
+.normal-navigation a:not(.logo) {
   color: var(--font-color);
   text-decoration: none;
   font-size: 16px;
 }
 
-.navigation ul li a:visited {
+.normal-navigation ul li a:visited {
   color: var(--font-color);
 }
 
-.navigation li:not(:last-child) {
+.normal-navigation li:not(:last-child) {
   margin-right: 5rem;
 }
 
@@ -41,6 +48,68 @@ ul {
 }
 
 .logo {
+  font-family: "Anton";
   font-size: 2em;
-  font-weight: 900;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-button {
+  font-size: 1.4em;
+  font-family: "Anton";
+  border-radius: 64px;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.menu-button:hover {
+  transform: scale(1.1)
+}
+
+.menu-page {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  background-color: black;
+}
+
+.menu-page nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 9em;
+}
+
+.menu-page nav a {
+  text-decoration: none;
+  color: #577DE0;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+}
+
+.menu-page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.menu-container {
+  margin: 40px 50px;
+}
+
+.exit-button {
+  cursor: pointer;
+}
+
+.active-word {
+  font-size: 16em;
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: 1px;
+  bottom: 0;
+  right: 50px;
+
 }

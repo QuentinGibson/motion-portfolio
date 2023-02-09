@@ -7,6 +7,10 @@ body {
   color: var(--font-color);
   overflow-x: hidden;
   font-size: 16px;
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Anton', sans-serif; 
+}
+
+p {
+  font-family: 'Manrope', sans-serif;
 }
 

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-top-row">
           <div className="footer-left">
-            <p className="logo">QUENTDEV.</p>
+            <span className="logo">QUENTDEV.</span>
             <span className="timestamp">2023</span>
           </div>
           <div className="footer-right">

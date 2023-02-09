@@ -1,6 +1,6 @@
 .full-container {
   display: grid;
-  grid-template: 80px 1fr 70px / 1fr;
+  grid-template: 120px 1fr 70px / 1fr;
 }
 
 

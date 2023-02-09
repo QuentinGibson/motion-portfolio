@@ -1,8 +1,7 @@
 import ProjectStyle from './Projectstyle'
 import './project.css'
 
-const { section, thinLine, crazyline, projectContainer, project, projectImageFirstVariation, projectImageSecondVariation, projectImageThirdVariation, projectImageFouthVariation, title, projectDetailsContainer, projectTitle, leftList, rightList, listItem, projectContainerAlt, titleContainer } = ProjectStyle
-
+const { section, thinLine, crazyline, projectContainer, project, projectImageFirstVariation, projectImageSecondVariation, title, projectDetailsContainer, projectTitle, leftList, listItem, projectContainerAlt, titleContainer } = ProjectStyle
 const Project = () => {
   return (
     <section style={section}>
@@ -15,7 +14,7 @@ const Project = () => {
         <div style={project}>
           <img style={projectImageFirstVariation} src="https://picsum.photos/400/480" alt="" width={400} />
           <div style={projectDetailsContainer}>
-            <p style={projectTitle}>Triumph App</p>
+            <span style={projectTitle}>Triumph App</span>
             <ul style={leftList}>
               <li style={listItem}>IOS</li>
               <li style={listItem}>Swift IU</li>
@@ -25,7 +24,7 @@ const Project = () => {
         </div>
         <div style={project}>
           <div style={projectDetailsContainer}>
-            <p style={projectTitle}>Novelist Website</p>
+            <span style={projectTitle}>Novelist Website</span>
             <ul style={leftList}>
               <li style={listItem}>IOS</li>
               <li style={listItem}>Swift IU</li>
@@ -39,7 +38,7 @@ const Project = () => {
         <div style={project}>
           <img style={projectImageFirstVariation} src="https://picsum.photos/820/500" alt="" width={820} />
           <div style={projectDetailsContainer}>
-            <p style={projectTitle}>RUMESPP DESIGN</p>
+            <span style={projectTitle}>RUMESPP DESIGN</span>
             <ul style={leftList}>
               <li style={listItem}>IOS</li>
               <li style={listItem}>Swift IU</li>
@@ -49,7 +48,7 @@ const Project = () => {
         </div>
         <div style={project}>
           <div style={projectDetailsContainer}>
-            <p style={projectTitle}>VIEW UI DASHBOARD</p>
+            <span style={projectTitle}>VIEW UI DASHBOARD</span>
             <ul style={leftList}>
               <li style={listItem}>IOS</li>
               <li style={listItem}>Swift IU</li>

@@ -24,9 +24,6 @@ const AboutStyle: StyleList = {
     fontSize: "5.125em",
     color: "#ffffff",
     textTransform: 'uppercase',
-    fontWeight: '900',
-    lineHeight: "97%",
-    letterSpacing: "-2px"
 
   },
   content: {

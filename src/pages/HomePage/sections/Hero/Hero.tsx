@@ -1,4 +1,8 @@
-const style = {
+import './hero.css'
+interface ReactStyles {
+  [key: string]: React.CSSProperties
+}
+const style: ReactStyles = {
   section: {
     margin: '0 50px',
   },
@@ -12,10 +16,8 @@ const style = {
     flexDirection: "column"
   },
   heroIntro: {
-    fontWeight: "900",
-    fontSize: "8.5em",
-    letterSpacing: "-5px",
-    lineHeight: "90%",
+    letterSpacing: 2,
+    fontSize: "9em",
     margin: 0,
   },
   heroBanner: {
@@ -68,7 +70,7 @@ const Hero = () => {
     <section style={style.section}>
       <div style={style.heroContainer}>
         <div style={style.heroIntroContainer} >
-          <h1 style={style.heroIntro}>QUENTIN GIBSON <br /> DA DOPE DEVELOPER </h1>
+          <h1 style={style.heroIntro}>QUENTIN GIBSON <br /> <span className="blue-accent">DA DOPE DEVELOPER</span> </h1>
           <img style={style.heroUnderLine} src="./crazy-line.svg" alt="" />
         </div>
         <div style={style.heroBanner}>
@@ -76,7 +78,7 @@ const Hero = () => {
         </div>
         <div style={style.heroSmallContainer}>
           <button style={style.heroSmallButton}>SEE MORE</button>
-          <span style={style.heroSmallContent}>Come check out my collection of dope projects. All made with React and React Native.</span>
+          <p style={style.heroSmallContent}>Come check out my collection of dope projects. All made with React and React Native.</p>
         </div>
       </div>
     </section>
