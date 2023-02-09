@@ -10,19 +10,19 @@ const Fact = () => {
           <ul className="stats-list">
             <li className="stat">
               <div className="stat-group">
-                <p className="stat-title">200+</p>
+                <span className="stat-title">200+</span>
                 <p className="stat-description">Projects completed</p>
               </div>
             </li>
             <li className="stat">
               <div className="stat-group">
-                <p className="stat-title">20+</p>
+                <span className="stat-title">20+</span>
                 <p className="stat-description">Rework customers</p>
               </div>
             </li>
             <li className="stat">
               <div className="stat-group">
-                <p className="stat-title">5+</p>
+                <span className="stat-title">5+</span>
                 <p className="stat-description">Years experience</p>
               </div>
             </li>

@@ -7,8 +7,8 @@ const About = () => {
       <h2 style={title}>About</h2>
       <div style={mainContainer}>
         <div style={leftContainer}>
-          <p style={subtitle}>Who could be more powerful than
-            a developer who can design.</p>
+          <span style={subtitle}>Who could be more powerful than
+            a developer who can design.</span>
           <p style={content}>I am a dedicated Mobile and Back-end developer who loves coding and problem-solving. I am very happy when I am creating a software, then I am when doing anything else. Then why did I suddenly find the audacity to do the unthinkable, learn design? I mean come on we all know developers can not learn design. Or can they? And should they? </p>
         </div>
         <div style={rightContainer}>

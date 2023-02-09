@@ -1,4 +1,4 @@
-import MainMenu from "./MainMenu"
+import MainNavigation from "./MainNavigation"
 import Footer from "./Footer"
 import "./page.css"
 import { ReactElement, ReactNode } from "react"
@@ -9,7 +9,7 @@ const Page = ({ children }: props): ReactElement => {
   return (
     <main className="app">
       <div className="full-container">
-        <MainMenu />
+        <MainNavigation />
         <div style={{ gridRowStart: 2 }}>
           {children}
         </div>

@@ -18,11 +18,10 @@ const ProjectStyle: ReactStyles = {
   projectContainer: {
     display: 'grid',
     gridTemplateColumns: '40% 1fr',
-    gridTemplateRows: 800,
     gridColumnGap: '10%',
-    marginTop: 80,
-    marginBottom: 80,
-    marginRight: '160px'
+    marginTop: 100,
+    marginBottom: 100,
+    margin: '0 120px',
   },
   project: {
     display: 'flex',
@@ -42,7 +41,8 @@ const ProjectStyle: ReactStyles = {
     display: 'grid',
     gridTemplateColumns: '50% 40%',
     gridColumnGap: '10%',
-    margin: '0 80px'
+    margin: '0 80px',
+    marginLeft: '240px'
   },
   titleContainer: {
     display: 'flex',
@@ -61,7 +61,6 @@ const ProjectStyle: ReactStyles = {
     color: "#ffffff",
     fontSize: "3.25em",
     textTransform: 'uppercase',
-    fontWeight: '900',
     margin: 0
   },
   leftList: {
