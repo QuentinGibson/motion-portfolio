@@ -8,7 +8,8 @@ const style: ReactStyles = {
   },
   heroContainer: {
     display: "grid",
-    gridTemplate: "690px 60px / 70% 22%",
+    gridTemplateColumns: "1fr 300px",
+    gridGap: '4rem',
     marginTop: "50px",
   },
   heroIntroContainer: {
@@ -17,16 +18,18 @@ const style: ReactStyles = {
   },
   heroIntro: {
     letterSpacing: 2,
-    fontSize: "9em",
+    fontSize: "clamp(3em,7em,14em)",
     margin: 0,
   },
   heroBanner: {
-    gridRow: "1 / 2",
     gridColumnStart: 2,
     position: "relative",
     background: "url(./empty-circles.svg) no-repeat center center",
     display: "flex",
-    alignItems: "center"
+    alignItems: "center",
+    width: 310,
+    justifySelf: "center",
+    minHeight: 700,
   },
   heroImage: {
     width: "100%",
@@ -42,8 +45,11 @@ const style: ReactStyles = {
     width: "100%",
   },
   heroUnderLine: {
-    display: "inline",
+    position: "relative",
     width: "60%",
+    top: -70,
+    transform: 'scale(1.5)',
+    left: 100,
   },
   heroSmallContainer: {
     display: "grid",
@@ -70,8 +76,10 @@ const Hero = () => {
     <section style={style.section}>
       <div style={style.heroContainer}>
         <div style={style.heroIntroContainer} >
-          <h1 style={style.heroIntro}>QUENTIN GIBSON <br /> <span className="blue-accent">DA DOPE DEVELOPER</span> </h1>
-          <img style={style.heroUnderLine} src="./crazy-line.svg" alt="" />
+          <h1 style={style.heroIntro}>
+            QUENTIN GIBSON <br /> <span className="blue-accent">DA DOPE DEVELOPER</span>
+            <img style={style.heroUnderLine} src="./crazy-line.svg" alt="" />
+          </h1>
         </div>
         <div style={style.heroBanner}>
           <img style={style.heroImage} src="https://picsum.photos/400" alt="A random image" />
