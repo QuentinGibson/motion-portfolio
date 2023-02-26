@@ -31,7 +31,7 @@ const MainNavigation = () => {
           <Link to="/" className='logo'>QUENTDEV.</Link>
         </div>
         <div className='second'>
-          <button onClick={() => setOpen(true)} className="menu-button">Menu</button>
+          <span onClick={() => setOpen(true)} className="menu-button">Menu</span>
         </div>
       </div>
       {isOpen && <div className="menu-page">

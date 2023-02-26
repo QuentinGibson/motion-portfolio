@@ -12,7 +12,7 @@ const Hero = () => {
         <div className={styles.heroSmallContainer}>
           <button className={styles.heroSmallButton}>DOPE PROJETS</button>
         </div>
-        <h2>Shoutout to all my Afican American Developers</h2>
+        {/* <h2>Shoutout to all my Afican American Developers</h2> */}
       </div>
     </section>
   )

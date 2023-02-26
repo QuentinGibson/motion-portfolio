@@ -1,11 +1,7 @@
 interface StyleList {
   [key: string]: React.CSSProperties
 }
-
 const AboutStyle: StyleList = {
-  section: {
-    margin: "100px 50px",
-  },
   mainContainer: {
     display: 'flex',
   },
@@ -18,17 +14,6 @@ const AboutStyle: StyleList = {
     color: '#67686A',
     textTransform: 'uppercase',
     fontSize: "2.2em"
-  },
-  subtitle: {
-    margin: 0,
-    fontSize: "5.125em",
-    color: "#ffffff",
-    textTransform: 'uppercase',
-
-  },
-  content: {
-    maxWidth: "400px",
-    marginTop: 90
   },
   rightContainer: {
     width: "310px",
@@ -55,11 +40,6 @@ const AboutStyle: StyleList = {
     position: "relative",
     borderRadius: "0 192px 192px 0"
   },
-  thinLine: {
-    margin: "90px 0",
-    width: "100%",
-    borderTop: "1px solid #ffffff"
-  }
 }
 
 export default AboutStyle

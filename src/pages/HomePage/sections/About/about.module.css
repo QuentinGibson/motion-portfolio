@@ -1,0 +1,26 @@
+.title {
+  font-size: 3.5em;
+  letter-spacing: 1.3px;
+}
+
+.section {
+  margin: 100px 50px
+}
+
+.thinLine {
+  padding: 80px 0;
+  width: 100%;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 5.125em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.content {
+    max-width: 600px;
+    margin-top: 90px;
+    font-size: 1.6em;
+}
