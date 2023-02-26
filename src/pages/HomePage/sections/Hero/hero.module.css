@@ -1,0 +1,47 @@
+.blueAccent {
+  color: #577DE0;
+}
+.section {
+  margin: 0 50px,
+}
+
+.heroContainer {
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  margin-top: 50px;
+}
+.heroIntroContainer {
+  display: flex;
+  flex-direction: column;
+}
+.heroIntro {
+  letter-spacing: 2;
+  font-size: clamp(3em,7em,14em);
+  margin: 0;
+}
+
+.heroSmallContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 30% 50%;
+  grid-column-start: 1;
+  grid-row-start: 2
+}
+.heroSmallContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 30% 50%;
+  grid-column-start: 1;
+  grid-row-start: 2
+}
+.heroSmallButton {
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  font-size: 1.3em;
+  margin-right: 1em;
+}
+.heroSmallContent {
+  font-size: "1em";
+}
